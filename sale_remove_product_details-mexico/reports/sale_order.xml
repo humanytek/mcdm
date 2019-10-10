@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="sale_report_remove_products" inherit_id="sale.report_saleorder_document">
+        <t t-if="not line.display_type" position="replace">
+        </t>
+    </template>
+</odoo>
